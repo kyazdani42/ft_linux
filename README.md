@@ -9,10 +9,10 @@ Try to implement what you want/need to. This is your userspace, take care of it!
 
 # Goals
 
-- Build a Linux Kernel
-- Install some binaries (See the list below)
-- Implement a filesystem hierarchy compliant with the [standards](http://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html)
-- Connect to the Internet
+- [x] Build a Linux Kernel
+- [x] Install some binaries (See the list below)
+- [x] Implement a filesystem hierarchy compliant with the [standards](http://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html)
+- [ ] Connect to the Internet
 
 # General instructions
 
@@ -24,25 +24,20 @@ Try to implement what you want/need to. This is your userspace, take care of it!
 
 ## Instructions
 
-- For this subject, you must use a virtual machine, live VirtualBox or VMWare.
-- Though it is not REQUIRED, you SHOULD read [this](https://pubs.opengroup.org/onlinepubs/9699919799/) and [that](http://refspecs.linuxfoundation.org/lsb.shtml) right now. Keep
-  those standards in mind. You won’t be graded on your compliance with them, but
-  still, it would be good practice.
-- You must use a kernel version 4.x. Stable or not, as long as it’s a 4.x version.
-- The kernel sources must be in /usr/src/kernel-\$(version)
-- You must use at least 3 differents partitions. (root, /boot and a swap partition).
-  You can of course make more partitions if you want to.
-- Your distro must implement a kernel_module loader, like udev.
-- The kernel version must contain your student login in it. Something like ‘Linux
-  kernel 4.1.2-<student_login>‘
-- The distribution hostname must be your student login
-- You’re free to choose between a 32 or 64-bit system.
-- You must use a sofware for central management and configuration, like SysV or
-  SystemD.
-- Your distro must boot with a bootloader, like LILO or GRUB.
-- The kernel binary located in /boot must be named like this:
-  vmlinuz-<linux_version>-<student_login>. Adapt your bootloader configuration
-  to that.
+- [x] For this subject, you must use a virtual machine, live VirtualBox or VMWare.
+> Though it is not REQUIRED, you SHOULD read [this](https://pubs.opengroup.org/onlinepubs/9699919799/) and [that](http://refspecs.linuxfoundation.org/lsb.shtml) right now.
+> Keep those standards in mind. You won’t be graded on your compliance with them, but still, it would be good practice.
+- [x] You must use a kernel version 4.x. Stable or not, as long as it’s a 4.x version.
+- [x] The kernel sources must be in /usr/src/kernel-\$(version)
+- [x] You must use at least 3 differents partitions. (root, /boot and a swap partition).
+> You can of course make more partitions if you want to.
+- [ ] Your distro must implement a kernel_module loader, like udev. ?
+- [x] The kernel version must contain your student login in it. Something like ‘Linux kernel 4.1.2-<student_login>‘
+- [x] The distribution hostname must be your student login
+- [x] You’re free to choose between a 32 or **64**-bit system.
+- [x] You must use a sofware for central management and configuration, like SysV or **SystemD**.
+- [x] Your distro must boot with a bootloader, like LILO or **GRUB**.
+- [x] The kernel binary located in /boot must be named like this: vmlinuz-<linux_version>-<student_login>. Adapt your bootloader configuration to that.
 
 # Mandatory part
 
