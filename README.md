@@ -12,7 +12,7 @@ Try to implement what you want/need to. This is your userspace, take care of it!
 - [x] Build a Linux Kernel
 - [x] Install some binaries (See the list below)
 - [x] Implement a filesystem hierarchy compliant with the [standards](http://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html)
-- [ ] Connect to the Internet
+- [x] Connect to the Internet
 
 # General instructions
 
@@ -31,7 +31,7 @@ Try to implement what you want/need to. This is your userspace, take care of it!
 - [x] The kernel sources must be in /usr/src/kernel-\$(version)
 - [x] You must use at least 3 differents partitions. (root, /boot and a swap partition).
 > You can of course make more partitions if you want to.
-- [ ] Your distro must implement a kernel_module loader, like udev. ?
+- [x] Your distro must implement a kernel_module loader, like udev.
 - [x] The kernel version must contain your student login in it. Something like ‘Linux kernel 4.1.2-<student_login>‘
 - [x] The distribution hostname must be your student login
 - [x] You’re free to choose between a 32 or **64**-bit system.
@@ -122,6 +122,9 @@ You have a stable system ? Nice. Now let’s have some fun ! Install whatever yo
 Any software, GUI, ANYTHING. \
 Make this system yours, with your touch. \
 Special points for an X Server, and window managers / desktop environments, like GNOME / LXDE / KDE / i3 / dwm ...
+## bonuses:
+- wget
+- zsh as default shell
 
 # Turn-in and peer-evaluation
 
